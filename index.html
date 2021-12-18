@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey: A Voyage Across Life</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<html>
+<head>
+<link rel="icon" type="images/icon.png" href="images/icon.png">
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: pink;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: pink;
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: pink;
+}
+</style>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="family.html">FAMILY</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="experience.html">EXPERIENCE</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>I'm Nurul <span>Afifah</span></h1>
+            <p>This is my official personal website and  <br> my fav websites plus gallery! </p>
+            <a href="profile.html">LEARN MORE</a>
+        </div>
+        <div class="images">
+            <img src="images/shape.png" class="shape">
+            <img src="images/afifah.png" class="girl">
+        </div>
+
+        <div class="social">
+           <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+           <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+           <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</body>
+</html>

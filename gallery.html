@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+</head>
+
+<html>
+<head>
+<link rel="icon" type="images/icon.png" href="images/icon.png">
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/afifahbg.png");
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: pink;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: pink;
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: pink;
+}
+</style>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="family.html">FAMILY</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="experience.html">EXPERIENCE</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+<br>
+
+<style>
+div.gallery {
+  border: 2px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: purple;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<center><h2 style="font-size:200%;color:white;font-family:verdana;">MY GALLERY</h2>
+<br>
+<center><p>..Enjoy..</p>
+<br>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery1.jpg">
+      <img src="images/gallery1.jpg" alt="girls" width="600" height="400">
+    </a>
+    <div class="desc">with ma girls!</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery2.jpg">
+      <img src="images/gallery2.jpg" alt="cable" width="600" height="400">
+    </a>
+    <div class="desc">Langkawi trips at cable car</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery3.jpg">
+      <img src="images/gallery3.jpg" alt="Me" width="600" height="400">
+    </a>
+    <div class="desc">i'm look yeopooo</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery15.jpg">
+      <img src="images/gallery15.jpg" alt="bridesmaids" width="600" height="400">
+    </a>
+    <div class="desc">we look beutiful right!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery14.jpg">
+      <img src="images/gallery14.jpg" alt="ma girls!" width="600" height="400">
+    </a>
+    <div class="desc">we do a throwback picture!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery10.jpg">
+      <img src="images/gallery10.jpg" alt="my little girl" width="600" height="400">
+    </a>
+    <div class="desc">hello my little girl!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/girls.jpg">
+      <img src="images/girls.jpg" alt="bridesmaids" width="600" height="400">
+    </a>
+    <div class="desc">my ibu look so cute</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/me.jpg">
+      <img src="images/me.jpg" alt="me" width="600" height="400">
+    </a>
+    <div class="desc">selfie!!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery12.jpg">
+      <img src="images/gallery12.jpg" alt="my little girl" width="600" height="400">
+    </a>
+    <div class="desc">My dear one</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery9.jpg">
+      <img src="images/gallery9.jpg" alt="big family" width="600" height="400">
+    </a>
+    <div class="desc">My big family, but still not full</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery6.jpg">
+      <img src="images/gallery6.jpg" alt="big family" width="600" height="400">
+    </a>
+    <div class="desc">With my dear cousin</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery13.jpg">
+      <img src="images/gallery13.jpg" alt="big family" width="600" height="400">
+    </a>
+    <div class="desc">With the newlyweds</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/parents.jpg">
+      <img src="images/parents.jpg" alt="big family" width="300" height="300">
+    </a>
+    <div class="desc">Ibu and Abah on Abah birthday</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/tambun.jpg">
+      <img src="images/tambun.jpg" alt="big family" width="300" height="300">
+    </a>
+    <div class="desc">First trip with my uni girls</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery21.jpg">
+      <img src="images/gallery21.jpg" alt="big family" width="300" height="300">
+    </a>
+    <div class="desc">classmate</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery22.jpg">
+      <img src="images/gallery22.jpg" alt="big family" width="300" height="300">
+    </a>
+    <div class="desc">classmate</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery23.jpg">
+      <img src="images/gallery23.jpg" alt="big family" width="300" height="300">
+    </a>
+    <div class="desc">happy wedding aidiel&athiqah</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery24.jpg">
+      <img src="images/gallery24.jpg" alt="big family" width="300" height="300">
+    </a>
+    <div class="desc">last class with Dr Syahirah</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery25.jpg">
+      <img src="images/gallery25.jpg" alt="big family" width="300" height="300">
+    </a>
+    <div class="desc">12.12.2021</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/gallery26.jpg">
+      <img src="images/gallery26.jpg" alt="big family" width="300" height="300">
+    </a>
+    <div class="desc">My dad and mom dating</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<body>
+
+<video width="320" height="240" controls>
+  <source src="video/smkksvideo.mp4" type="video/mp4">
+</video>
+
+<video width="320" height="240" controls>
+  <source src="video/smkksvideo1.mp4" type="video/mp4">
+</video>
+
+</body>
+<br>
+<body>
+
+<audio controls autoplay>
+  <source src="music/photograph.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+
+</body>
+</html>
